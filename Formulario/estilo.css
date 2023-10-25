@@ -1,0 +1,73 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para el contenedor del formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+/* Efecto de animación al pasar el cursor sobre el formulario */
+form:hover {
+    transform: scale(1.02);
+}
+
+/* Estilo para el título */
+h1 {
+    color: #000000;
+}
+
+/* Estilo para las etiquetas */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000000;
+}
+
+/* Estilo para los campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para los campos de entrada de texto con error de validación */
+input:invalid {
+    border: 1px solid #10255e;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de envío al pasar el cursor */
+input[type="submit"]:hover {
+    background: #0056b3;
+}
