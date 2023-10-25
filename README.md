@@ -45,3 +45,7 @@ Una vez que se complete la importación, deberías ver un mensaje de confirmaci�
 Ahora puedes acceder y utilizar la base de datos importada en tus aplicaciones web locales.
 Eso es todo. Has cargado con éxito una base de datos .sql en tu entorno XAMPP y estás listo para desarrollar y probar tus aplicaciones web con datos reales.
 
+
+
+#Michaeldev#
+
